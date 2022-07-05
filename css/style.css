@@ -1,0 +1,150 @@
+body {
+    font-family: 'Anton', sans-serif;
+
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    background: url('../img/header.png') no-repeat center top / cover;
+    padding-bottom: 339px;
+    color: #fff;
+}
+header a{
+    color: #fff;
+}
+.menu{
+    display: flex;
+    letter-spacing: 0.1em;
+}
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.menu li a{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.menu li{
+    margin-right: 40px;
+    list-style-type: none;
+}
+.tel{
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+}
+.logo1{
+    margin-right: 69px;
+}
+.offer{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 216px;
+}
+.offer p{
+    font-size: 30px;
+}
+.offer h1{
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+}
+p {
+    margin: 0;
+}
+.btn{
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: #fff;
+    color: black;
+    transition: all 0.5s ease;
+
+}
+*{
+    box-sizing: border-box ;
+}
+section{
+}
+.about_h h1{
+    padding-top: 113px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.about__text h4{
+    padding-bottom: 32px;
+    font-size: 25px;
+}
+.about__text p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+}
+.about__text{
+    display: flex;
+    width: 1162px;
+    margin-top: 74px;
+    margin-bottom: 84px;
+    text-align: justify;
+}
+.about__text1{
+    width: 562px;
+}
+.about__text2{
+    margin-left: auto;
+    width: 562px;
+}
+.about__text2 p{
+
+}
+.photo img:nth-child(1){
+    width: 270px;
+    height: 344px;
+    margin-right: 29px;
+}
+.photo img:nth-child(2){
+    width: 270px;
+    height: 344px;
+    margin-right:  10px;
+}
+.photo img:nth-child(3){
+    width: 570px;
+    height: 344px;
+}
+.photo{
+    width: 1170px;
+    margin-bottom: 114px;
+
+}
+footer{
+    margin-bottom: 113px;
+}
+
